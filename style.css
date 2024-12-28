@@ -339,6 +339,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
 
 }
@@ -381,11 +382,13 @@ h2 {
     text-align: center;
     font-weight: 500;
     line-height: 1.625;
+    margin-bottom: 32px;
 }
 
 .feature__row {
-    padding: 32px 24px;
+    padding: px px;
     display: flex;
+    justify-content: center;
     width: calc(100%/3)
 }
 
