@@ -564,6 +564,27 @@ STEPS
 
 }
 
+.section__step--blob {
+    position: relative;
+    
+}
+
+.step__blob {
+
+    width: 100px;
+    height: 100px;
+    background-color: #e3cdd5;
+    opacity: 0.3;
+    border-radius: 30% 70% 70% 30% / 67% 30% 70% 33%   ;
+    position: absolute;
+    z-index: ;
+    left: -10px;
+    bottom: -10px;
+    
+}
+
+
+
 /*
 
 values
@@ -907,32 +928,386 @@ PLANS
 
 
 
+  /* testimonial */
+
+
+  .testimonials__img {
+    width: 100%;
+  }
+
+.testimonials__img--wrapper {
+    width: 50%;
+}
+.testimonials__description {
+    width: 50%;
+}
+
+
+.testimonial__profile--img {
+    width: 18%;
+    border-radius: 500px;
+    padding: px;
+    width: 80px;
+    height: 80px;
+}
+
+.testimonial__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial__profile {
+    display: flex;
+}
+
+.testimonial__buttons {
+    display: flex;
+}
+
+.testimonials__description {
+    padding-left: 64px;
+    text-align: left;
+}
+
+.testimonial__para {
+    text-align: left;
+    margin: 16px 0 40px 0;
+    color: #4a5568;
+    font-size: 16px;
+
+}
+
+.section__para {
+    text-align: left;
+}
+
+.testimonial__title {
+    margin-top: 16px;
+}
+.testimonial__details {
+    margin-left: 16px;
+    display: flex;
+   align-items: center;
+  
+    
+    
+}
+
+.testimonial__detail {
+    display: flex;
+    flex-direction: column;
+    align-items: 
+}
+
+.testimonial__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__button--divider {
+    width: 1px;
+    height: 25px;
+    background-color: #edf2f7;
+}
+
+
+.testimonial__button {
+    margin: 12px;
+    background-color: #edf2f7;
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6415ff;
+    transition: all 300ms;
+
+
+}
+.testimonial__rating {
+    color:rgba(246, 173, 85) ;
+}
+.profile__name {
+    color: #243e63;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+
+
+}
+
+.profile__role {
+    color: #7c8ba1;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+    
+.testimonial__button:hover {
+    filter: brightness(95%);
+}
+
+.start__container {
+    width: 100%;
+    padding: 96px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(100, 21, 255) ;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+}
 
 
 
 
 
+.start__para {
+    color: #f7fafc;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-right: px;
+    margin-right: 0;
+    width: 70%;
+    max-width: 500px;
+
+}
+
+.start__row {
+    padding: 0 32px;
+}
+
+.start__buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    margin-right: 0;
+}
+
+.start__button {
+    margin-right:0 32px 0 px ;
+    padding: 20px 40px;
+    color: #e9e5e5;
+    background-color: #f56565;
+    border-radius:500px ;
+    margin-right: 32px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    font-weight: 700;
+    transition: all 300ms;
+}
+
+.Contact__button {
+    background: none;
+    color: #e5e7eb;
+    border-radius: 500px;
+    padding: 20px 40px;
+    border: 0.5px solid ;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    font-weight: 700;
+    transition: all 300ms;
 
 
+}
+.start__button:hover {
+    filter: brightness(80%);
+    background-color: #ce4666;
+}
 
 
+.Contact__button:hover {
+    background-color: #cbd5e0;
+}
+
+.blob {
+    width: 100px;
+    height: 100px;
+    background-color:#412181;
+    opacity: 0.15;
+    border-radius: 30% 70% 70% 30% / 67% 30% 70% 33%   ;
+    position: absolute;
+    z-index: 2;
+    left: -0px;
+    bottom: -px;
+    top: 0px;
+}
 
 
+/* 
+
+FOOTER
+
+*/
 
 
+footer {
+    background-color: rgb(100, 21, 255);
+}
+
+.footer__lists {
+    display: flex;
+    width: 100%;
+    padding: 32px 32px;
+
+} 
+
+.footer__logo--img {
+    width: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.footer_bottom {
+    display: flex;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100%/5);
+    text-align: left;
+    padding-left: 32px;
+    color: #e5e7eb;
+    
+    
+
+}
+
+.footer__column--link {
+    color: #e5e7eb;
+}
+
+.footer_bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.footer__logo--text {
+    color: #e5e7eb;
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footer__copyright {
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+}
+
+.footer__social--lists {
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer__social--link {
+    margin-left: 20px;
+    width: 35px;
+    height: 35px;
+    background-color: #cbd5e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 500px;
+    transition: all 300ms;
+    
+}
+.footer__title {
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+
+}
+
+.footer__column--link {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    
+
+}
+
+.footer__copyright {
+    color: #cbd5e0;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.footer__divider {
+
+    width: 95%;
+    height: 2px;
+    background-color: rgb(116, 44, 255);
+}
+
+.footer__social--link:hover {
+    filter: brightness(80%);
+}
+
+.footer__column--link:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #e5e7eb;
+    left: 0;
+    bottom: -3px;
+    position: absolute;
+    opacity: 0;
+    transition: all 300ms;
 
 
+} 
+
+.footer__column--link:hover.footer__column--link:after {
+
+    opacity: 1;
+    
+
+}
 
 
+.footer__top--blob {
+    width: 300px;
+    height: 300px;
+    background-color: #5f19ec;
+    border-radius:30% 70% 70% 30% / 67% 30% 70% 33%  ;
+    position: absolute;
+    top: -0px;
+    left: -80px;
+    opacity: 1;
+    z-index: -1;
 
+}
 
-
-
-
-
-
-
-
+.footer__container {
+    position: relative;
+    z-index: 2;
+}
 
 
 
