@@ -166,8 +166,22 @@ section {
     background-color: #fff;
     border: 1px solid rgb(229, 231, 235);
     opacity: 0;
+    visibility: hidden;
+    display: ;
+    transition: opacity 300ms ease;
 
 }
+
+.menu--open .menu__backdrop {
+    visibility: visible;
+    opacity: 1;
+}
+.menu--open {
+    max-height: 100vh;
+    overflow-y:hidden
+}
+
+
 
 .btn__menu--close {
     font-size: 25px;
@@ -244,6 +258,7 @@ section {
     letter-spacing: 0.35px;
     border-bottom: 2px solid transparent;
     position: relative;
+    text-wrap: nowrap;
     
 }  
 
@@ -371,7 +386,7 @@ a {
 
     width: 60%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
 
 }
@@ -1490,6 +1505,34 @@ footer {
     z-index: 2;
 }
 
+.menu--open .menu__backdrop {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1521,6 +1564,18 @@ footer {
         display: none;
     }
 
+     .row {
+        display: flex;
+        flex-direction: column;
+     }
+     .values__img--wrapper {
+
+        padding: 20px;
+        width: 80%;
+    
+     }
+
+
 
 }
 
@@ -1547,6 +1602,15 @@ footer {
 
         display: flex;
         justify-content: center;
+    }
+
+    .steps__description {
+        padding-left: 26px;
+    }
+
+    .values__description {
+
+        padding-right: 0px;
     }
 
 }
@@ -1775,4 +1839,16 @@ button {
         font-size: 14px;
     }
 
+}
+
+@media (max-width: 360px){
+
+    .testimonial__rating {
+        display: flex;
+    }
+
+   .testimonials__img--wrapper {
+     width: 80%;
+
+   }
 }
