@@ -159,15 +159,16 @@ section {
     top: 0;
     left: 0;
     right: 0;
-    z-index: -1;
+    z-index: 100;
     padding-bottom: 0;
-    background-color: #9ae6b4;
+    
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #ab5757;
     border: 1px solid rgb(229, 231, 235);
-    opacity: 0;
-    visibility: hidden;
-    display: ;
+    opacity: ;
+    
+    visibility:hidden ;
+
     transition: opacity 300ms ease;
 
 }
@@ -175,10 +176,11 @@ section {
 .menu--open .menu__backdrop {
     visibility: visible;
     opacity: 1;
+    
 }
 .menu--open {
-    max-height: 100vh;
-    overflow-y:hidden
+    max-height:
+    overflow-y
 }
 
 
@@ -1654,12 +1656,18 @@ footer {
 
     .footer__lists {
         display: flex;
-        flex-direction: ;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         padding-left: 0;
+        
+
     }
 
     .footer__list {
-        width: calc(100%/5);
+        width: calc(100%/3);
+        padding-left: 80px;
+        margin-bottom: 30px;
     }
 
     .footer_bottom {
