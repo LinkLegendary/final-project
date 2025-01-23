@@ -661,10 +661,13 @@ qulity
 
 
 
+
 .qulity__img__wrapper {
 
     width: 50%;
 }
+
+
 
 .qulity__img {
 
@@ -846,7 +849,7 @@ values
 .value {
     display: flex;
     flex-direction: column;
-    margin: 32px 32px 0 0;
+    
 }
 
 .value__title {
@@ -1677,6 +1680,14 @@ footer {
 
 @media (max-width:609px) {
 
+
+    .value{
+        margin: 0;
+        
+    }
+
+
+
 .steps__list{
     display: flex;
     flex-direction: column;
@@ -2071,6 +2082,8 @@ button {
         padding: auto;
 
     }
+
+    
 
     .section__title{
     
