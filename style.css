@@ -1665,9 +1665,7 @@ footer {
         justify-content: center;
     }
 
-    .steps__description {
-        padding-left: 26px;
-    }
+    
 
     .values__description {
 
@@ -1680,11 +1678,19 @@ footer {
 @media (max-width:609px) {
 
 
+.steps__img--wrapper{
+    margin-bottom: 24px;
+}
+
+
 .qulity__btn {
 
     margin-bottom: 24px;
 }
-
+.steps__description {
+    margin: 0;
+    padding: 0;
+}
 
 .section__tag{
     text-align: center;
