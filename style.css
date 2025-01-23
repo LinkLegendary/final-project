@@ -1643,10 +1643,22 @@ footer {
     .row__qulity--wrapper{
         display: flex;
         flex-direction: column;
-        padding-left: 150px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        
         
     }
+    
+    .section__title{
+        text-align: center;
+    }
 
+    .section__title--qulity{
+        
+        text-align: center;
+    }
 
     .start__buttons {
 
@@ -1668,8 +1680,92 @@ footer {
 
 @media (max-width:609px) {
 
+
+.qulity__btn {
+
+    margin-bottom: 24px;
+}
+
+
+
     .feature__row {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+
+    .values__description{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+    }
+
+    .step{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .testimonial__profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials__description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .section__title{
+       
+        text-align: center;
+    }
+
+    .value__title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .value__para{
+        text-align: center;
+    }
+
+    .btn{
+        
+    }
+
+    .section__tag{
+        text-align: center;
+    }
+
+    .section__para{
+        text-align: center;
+    }
+
+    .feature__title{
+        text-align: center;
+    }
+
+    .row__feature {
+        display: flex;
+        justify-content: center;
     }
 
     .steps__description {
@@ -1682,8 +1778,12 @@ footer {
     }
 
     .row__qulity--wrapper{
-
-        padding-right:140px ;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+       
     }
 
     .testimonial__bottom {
@@ -1932,5 +2032,27 @@ button {
    .section__title{
     font-size: 32px;
    }
+
+  .btn__menu--close{
+  right: -120px;
+
+
+
+  }
+
+  
+
+  .row__qulity--wrapper{
+    padding-right: 80px;
+  }
+
+
+}
+@media (max-width: 269px){
+
+.btn__menu--close{
+
+    right: -70px;
+}
 
 }
