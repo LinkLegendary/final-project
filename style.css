@@ -15,7 +15,7 @@
 
 
 .logo__img {
-    width: 36px;
+    width: 40px;
 }
 
 .row {
@@ -54,6 +54,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
@@ -269,7 +270,7 @@ section {
 
     color: rgb(36, 62, 99);
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: 800;
     margin-left: 12px;
 
 
@@ -385,8 +386,8 @@ a {
     padding: 0px;
 
     color: #243e63;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 00;
     transition: all 400ms ease;
 }
 
