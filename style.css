@@ -125,15 +125,15 @@ section {
 }
 
 .btn__menu--close {
-    position: absolute;
+    position: fixed;
     
     font-size: 25px;
     font-weight: bold;
     
     background: none;
      margin-top: 0;
-    top: 25px;
-    right: 47px;
+    top: 17px;
+    right: 30px;
     border: none;
     
 }
@@ -166,26 +166,24 @@ section {
 
 .menu__backdrop {
     position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 520px;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 100;
-    padding-bottom: 0;
-    
-    border-radius: 8px;
+    height: 600px;
+    margin: 24px 16px;
+    padding: 32px;
     background-color: #fff;
     border: 1px solid rgb(229, 231, 235);
-    transform: translate(100%);
-    
-    visibility:hidden ;
-    transition: all 100ms;
-    
+    border-radius: 8px;
+    z-index: 4;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(300%);
+    transition: all 300ms;
 
+
+
+    
 
 
 }
@@ -193,7 +191,7 @@ section {
 .menu--open .menu__backdrop {
     visibility: visible;
     opacity: 1;
-    transform: translate(0);
+    transform: translateX(0);
    
     
 }
@@ -2227,6 +2225,13 @@ footer {
 
     }
 
+
+    .btn__menu--close {
+        position: fixed;
+        right: 30px;
+        top: 8px;
+    }
+
     
 
     .section__title{
@@ -2253,6 +2258,12 @@ footer {
 
 @media (max-width: 360px){
 
+    .btn__menu--close {
+        position: fixed;
+        right: 32px;
+        top: 8px;
+    }
+
 
     .header__description {
        margin: 0;
@@ -2272,9 +2283,7 @@ footer {
     font-size: 32px;
    }
 
-  .btn__menu--close{
-  right: -120px;
-
+  
 
 
   }
@@ -2291,9 +2300,18 @@ footer {
 }
 @media (max-width: 269px){
 
+
+
+
 .btn__menu--close{
 
-    right: -70px;
+    .btn__menu--close {
+        position: fixed;
+        right: 100px;
+        top: 100px;
+    }
+
+    
 }
 
 }
